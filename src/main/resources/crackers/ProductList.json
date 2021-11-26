@@ -1,0 +1,74 @@
+{
+	"data": [
+		{
+			"product_id": "101",
+			"category_id": "1001",
+			"product_name": "Ground Chakkar Special",
+			"Description": "1 Box",
+			"mrp_price": "150",
+			"primary_image": "ground-chakkar-special.png",
+			"secondary_image": "ground-chakkar-special-1.png",
+			"thumb_nail": "flower-pots.png",
+			"is_display": "0"
+		},
+		{
+			"product_id": "102",
+			"category_id": "1001",
+			"product_name": "Ground Chakkar Deluxe",
+			"Description": "1 Box",
+			"mrp_price": "280",
+			"primary_image": "ground-chakkar-asoka.png",
+			"secondary_image": "ground-chakkar-asoka-1.png",
+			"thumb_nail": "flower-pots.png",
+			"is_display": "0"
+		},
+		{
+			"product_id": "103",
+			"category_id": "1001",
+			"product_name": "Ground Chakkar Big (10 Pcs)",
+			"Description": "1 Box",
+			"mrp_price": "70",
+			"discount_rate": 35,
+			"primary_image": "ground-chakkar-big.png",
+			"secondary_image": "ground-chakkar-big-1.png",
+			"thumb_nail": "flower-pots.png",
+			"is_display": "0"
+		},
+		{
+			"product_id": "201",
+			"category_id": "2001",
+			"sub_category_id": "102",
+			"product_name": "Baby Rocket",
+			"Description": "1 Box",
+			"mrp_price": "60",
+			"primary_image": "baby-rocket.png",
+			"secondary_image": "baby-rocket.png",
+			"thumb_nail": "baby-rocket.png",
+			"is_display": "0"
+		},
+		{
+			"product_id": "202",
+			"category_id": "2001",
+			"product_name": "Rocket Bomb",
+			"Description": "1 Box",
+			"mrp_price": "120",
+			"primary_image": "rocket-bomb.png",
+			"secondary_image": "rocket-bomb.png",
+			"thumb_nail": "rocket-bomb.png",
+			"is_display": "0"
+		},
+		{
+			"product_id": "202",
+			"category_id": "2001",
+			"sub_category_id": "102",
+			"product_name": "Lunik Express Rocket",
+			"Description": "1 Box",
+			"mrp_price": "225",
+			"discount_rate": 60,
+			"primary_image": "lunik-express-rocket.png",
+			"secondary_image": "lunik-express-rocket.png",
+			"thumb_nail": "lunik-express-rocket.png",
+			"is_display": "0"
+		}
+	]
+}

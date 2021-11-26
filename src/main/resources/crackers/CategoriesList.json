@@ -1,0 +1,14 @@
+{
+	"data": [
+		{
+			"CategoryId": "1001",
+			"CategoryName": "Ground Chakkar",
+			"Description": "Chakkar Crackers are special types of revolving firecrackers that rotate at high speed when ignited."
+		},
+		{
+			"CategoryId": "2001",
+			"CategoryName": "Rockets",
+			"Description": "A rocket is a pyrotechnic firework made out of a paper tube packed with gunpowder that is propelled into the air."
+		}
+	]
+}
