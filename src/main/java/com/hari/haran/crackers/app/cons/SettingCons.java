@@ -19,7 +19,7 @@ public class SettingCons {
 	public static final String APP_VERSION = "1.0";
 	public static final String APP_BUILD_NO = "b01";
 
-	public static final String PRODUCTION_SERVER = "https://h2-ecommerce-frontend.herokuapp.com/";
+	public static final String PRODUCTION_SERVER = "https://h2-ecommerce-frontend.herokuapp.com";
 	public static final String STAGING_SERVER = "https://h2-krishiv-staging.herokuapp.com";
 	public static final String LOCAL_SERVER = "http://localhost:6200";
 
