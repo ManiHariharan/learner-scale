@@ -58,6 +58,11 @@ public class AngularController {
 		throw new MyRestException(HttpStatus.UNAUTHORIZED, "Invalid Credentials");
 	}
 
+	@PostMapping(path = URLCons.URL_USER_LOGOUT)
+	public boolean authenticateLogin(@RequestParam(name = "user_name") String userEmail) {
+		return (userEmail.equals("hariharan.12bit2019@mkce.ac.in"));
+	}
+
 	@GetMapping(path = URLCons.URL_GET_CATEGORIES)
 	public String getCategories() {
 		return JsonUtils.getCategories();

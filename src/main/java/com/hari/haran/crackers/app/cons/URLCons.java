@@ -21,6 +21,7 @@ public class URLCons {
 
 	public static final String PREFIX_API_ANGULAR = "/api/h2p/v1/";
 	public static final String URL_LOGIN_CHECK = "authenticateLogin";
+	public static final String URL_USER_LOGOUT = "userLogOut";
 
 	public static final String URL_GET_CATEGORIES = "getCategories";
 	public static final String URL_GET_DEPARTMENTS = "getDepartments";
