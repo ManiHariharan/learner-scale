@@ -28,6 +28,9 @@ public class ProductJson {
 	@JsonProperty("discount_rate")
 	private int discountRate;
 
+	@JsonProperty("is_display")
+	private int display;
+
 	@JsonProperty("primary_image")
 	private String primaryImage;
 
@@ -36,8 +39,5 @@ public class ProductJson {
 
 	@JsonProperty("thumb_nail")
 	private String thumbNail;
-
-	@JsonProperty("is_display")
-	private int display;
 
 }

@@ -1,14 +1,114 @@
 {
 	"data": [
 		{
-			"CategoryId": "1001",
-			"CategoryName": "Ground Chakkar",
-			"Description": "Chakkar Crackers are special types of revolving firecrackers that rotate at high speed when ignited."
+			"CategoryId": "C001",
+			"CategoryName": "SPARKLERS",
+			"Description": "A sparkler is a type of hand-held firework that burns slowly while emitting bright, intense colored flames, sparks, and other effects."
 		},
 		{
-			"CategoryId": "2001",
-			"CategoryName": "Rockets",
-			"Description": "A rocket is a pyrotechnic firework made out of a paper tube packed with gunpowder that is propelled into the air."
+			"CategoryId": "C002",
+			"CategoryName": "FLOWER POTS",
+			"Description": "Flower pots is a standard crackers which fall around delightful golden sparkles with a whooshing sound that adds more excitation to your special events."
+		},
+		{
+			"CategoryId": "C003",
+			"CategoryName": "GROUND CHAKKARS",
+			"Description": "Chakkar Special Crackers are special types of revolving firecrackers that rotate at high speed when ignited. They are highly loved by kids for appearing stunning with silver & golden stars."
+		},
+		{
+			"CategoryId": "C004",
+			"CategoryName": "WHEEL SERIES",
+			"Description": "Wheel Series"
+		},
+		{
+			"CategoryId": "C005",
+			"CategoryName": "TWINKLING STARS",
+			"Description": "Twinkling Stars"
+		},
+		{
+			"CategoryId": "C006",
+			"CategoryName": "ROCKETS",
+			"Description": "Rockets"
+		},
+		{
+			"CategoryId": "C007",
+			"CategoryName": "ATOM BOMB",
+			"Description": "Atom Bomb"
+		},
+		{
+			"CategoryId": "C008",
+			"CategoryName": "BIJILI CRACKERS",
+			"Description": "Bijili Crackers"
+		},
+		{
+			"CategoryId": "C009",
+			"CategoryName": "CHORSA & GIANT CRACKERS",
+			"Description": "Chorsa & Giant Crackers"
+		},
+		{
+			"CategoryId": "C010",
+			"CategoryName": "ONE SOUND CRACKER'S",
+			"Description": "One Sound Cracker's"
+		},
+		{
+			"CategoryId": "C011",
+			"CategoryName": "DELUXE CRACKERS",
+			"Description": "Deluxe Crackers"
+		},
+		{
+			"CategoryId": "C012",
+			"CategoryName": "MULTI SHOTS",
+			"Description": "Multi Shots"
+		},
+		{
+			"CategoryId": "C013",
+			"CategoryName": "FOUNTAIN",
+			"Description": "Fountain"
+		},
+		{
+			"CategoryId": "C014",
+			"CategoryName": "FANCY",
+			"Description": "Fancy"
+		},
+		{
+			"CategoryId": "C015",
+			"CategoryName": "GARLAND",
+			"Description": "Garland"
+		},
+		{
+			"CategoryId": "C016",
+			"CategoryName": "GRAND DISPLAY",
+			"Description": "Grand Display"
+		},
+		{
+			"CategoryId": "C017",
+			"CategoryName": "WHISTLING SPECIAL",
+			"Description": "Whistling Special"
+		},
+		{
+			"CategoryId": "C018",
+			"CategoryName": "CRACKLING SHOTS",
+			"Description": "Crackling Shots"
+		},
+		{
+			"CategoryId": "C019",
+			"CategoryName": "COLOUR MATCH BOXES",
+			"Description": "Colour Match Boxes"
+		},
+		{
+			"CategoryId": "C020",
+			"CategoryName": "KIDS NOVELTIES",
+			"Description": "Kids Novelties"
+		},
+		{
+			"CategoryId": "C021",
+			"CategoryName": "KIDS ITEM",
+			"Description": "Kids Item"
+		},
+		{
+			"CategoryId": "C022",
+			"CategoryName": "GIFT BOXES",
+			"Description": "Gift Boxes"
 		}
 	]
 }
