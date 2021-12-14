@@ -93,17 +93,19 @@ public class JsonUtils {
 	public static Product[] getProductArray(Paging paging) {
 		Product[] productArray = getProductArray();
 
-		String departmentId = Objects.toString(paging.getCategoryId(), "");
-		if (!departmentId.isEmpty()) {
-			Stream<Product> productStream = Arrays.stream(productArray);
-			productArray = productStream.filter(p -> p.getCategoryId().equals(departmentId)).toArray(Product[]::new);
-		}
+		if (!paging.isAllWords()) {
+			String departmentId = Objects.toString(paging.getCategoryId(), "");
+			if (!departmentId.isEmpty()) {
+				Stream<Product> productStream = Arrays.stream(productArray);
+				productArray = productStream.filter(p -> p.getCategoryId().equals(departmentId)).toArray(Product[]::new);
+			}
 
-		String subCategoryId = Objects.toString(paging.getSubCategoryId(), "");
-		if (!subCategoryId.isEmpty()) {
-			Stream<Product> productStream = Arrays.stream(productArray);
-			productArray = productStream.filter(p -> p.getSubCategoryId().equals(subCategoryId))
-					.toArray(Product[]::new);
+			String subCategoryId = Objects.toString(paging.getSubCategoryId(), "");
+			if (!subCategoryId.isEmpty()) {
+				Stream<Product> productStream = Arrays.stream(productArray);
+				productArray = productStream.filter(p -> p.getSubCategoryId().equals(subCategoryId))
+						.toArray(Product[]::new);
+			}
 		}
 
 		String searchInp = Objects.toString(paging.getSearchString(), "");
