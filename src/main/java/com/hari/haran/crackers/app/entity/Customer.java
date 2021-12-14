@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
- * Customer is an Entity having Customer information.
+ * Customer is an Entity having Customer information
  * 
  * @author HARIHARAN MANI
  * @since 17-11-2021

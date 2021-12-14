@@ -4,6 +4,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 
+/**
+ * ProductJson is an entity class for reading Product input
+ * 
+ * @author HARIHARAN MANI
+ * @since 14-12-2021
+ */
 @Data
 public class ProductJson {
 

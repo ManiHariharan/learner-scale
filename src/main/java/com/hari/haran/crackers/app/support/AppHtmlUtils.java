@@ -3,7 +3,7 @@ package com.hari.haran.crackers.app.support;
 import com.hari.haran.crackers.app.cons.SettingCons;
 
 /**
- * AppHtmlUtils is an utility class used to define HTML component
+ * AppHtmlUtils is an utility class used to define HTML components
  * 
  * @author HARIHARAN MANI
  * @since 17-11-2021

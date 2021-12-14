@@ -3,7 +3,7 @@ package com.hari.haran.crackers.app.exception;
 import org.springframework.http.HttpStatus;
 
 /**
- * MyRestException is an user-defined Exception Class for Rest error handling
+ * MyRestException is an user-defined Exception Class for Rest Error Handling
  * 
  * @author HARIHARAN MANI
  * @since 17-11-2021

@@ -9,7 +9,7 @@ package com.hari.haran.crackers.app.cons;
 public class SettingCons {
 
 	/**
-	 * SettingCons() is a private constructor to hide the implicit public one.
+	 * This is a private constructor to hide the implicit public one.
 	 */
 	private SettingCons() {
 		throw new IllegalStateException();

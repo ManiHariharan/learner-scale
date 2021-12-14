@@ -4,6 +4,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 
+/**
+ * Category is an entity class used for reading Category input
+ * 
+ * @author HARIHARAN MANI
+ * @since 14-12-2021
+ */
 @Data
 public class Category {
 

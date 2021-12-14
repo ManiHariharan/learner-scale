@@ -22,6 +22,12 @@ import com.hari.haran.crackers.app.entity.Paging;
 import com.hari.haran.crackers.app.entity.Product;
 import com.hari.haran.crackers.app.entity.json.ProductJson;
 
+/**
+ * JsonUtils is an utility class used for maintaining JSON values
+ * 
+ * @author HARIHARAN MANI
+ * @since 14-12-2021
+ */
 public class JsonUtils {
 
 	private static final String JSON_FOLDER = "crackers";
@@ -97,7 +103,8 @@ public class JsonUtils {
 			String departmentId = Objects.toString(paging.getCategoryId(), "");
 			if (!departmentId.isEmpty()) {
 				Stream<Product> productStream = Arrays.stream(productArray);
-				productArray = productStream.filter(p -> p.getCategoryId().equals(departmentId)).toArray(Product[]::new);
+				productArray = productStream.filter(p -> p.getCategoryId().equals(departmentId))
+						.toArray(Product[]::new);
 			}
 
 			String subCategoryId = Objects.toString(paging.getSubCategoryId(), "");

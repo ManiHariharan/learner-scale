@@ -13,8 +13,7 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 import com.hari.haran.crackers.app.exception.MyRestException;
 
 /**
- * ExceptionController is a controller advice class used as an error handler for
- * the entire WSF application.
+ * ExceptionController is a controller advice class used as an Error Handler
  * 
  * @author HARIHARAN MANI
  * @since 09-12-2019

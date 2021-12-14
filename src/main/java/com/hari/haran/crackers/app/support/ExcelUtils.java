@@ -15,6 +15,12 @@ import com.hari.haran.crackers.app.entity.SubCategory;
 import com.hari.haran.crackers.app.entity.json.ProductJson;
 import com.hari.haran.crackers.app.exception.MyCustomException;
 
+/**
+ * ExcelUtils is an utility class used to read inputs from Excel
+ * 
+ * @author HARIHARAN MANI
+ * @since 14-12-2021
+ */
 public class ExcelUtils {
 
 	private static final String EXCEL_PATH = "C:\\Users\\harihama\\Desktop\\Desktop\\Crackers.xls";

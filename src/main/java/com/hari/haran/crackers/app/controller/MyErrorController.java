@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hari.haran.crackers.app.support.AppHtmlUtils;
 
 /**
- * MyErrorController is a user defined controller for handling h2JsonApp Errors
+ * MyErrorController is a user defined controller for handling h2JsonApp Errors.
  * 
  * @author HARIHARAN MANI
  * @since 17-11-2021

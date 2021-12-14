@@ -8,6 +8,12 @@ import com.hari.haran.crackers.app.entity.json.ProductJson;
 
 import lombok.Data;
 
+/**
+ * Product is an entity class used for maintaining Product information
+ * 
+ * @author HARIHARAN MANI
+ * @since 14-12-2021
+ */
 @Data
 public class Product {
 

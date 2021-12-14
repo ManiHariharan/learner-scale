@@ -20,7 +20,7 @@ import com.hari.haran.crackers.app.exception.MyRestException;
 import com.hari.haran.crackers.app.support.JsonUtils;
 
 /**
- * AngularController is a REST Controller for handling Angular requests
+ * AngularController is a REST Controller for handling Angular Requests.
  * 
  * @author HARIHARAN MANI
  * @since 17-11-2021

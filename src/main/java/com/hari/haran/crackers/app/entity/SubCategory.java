@@ -4,6 +4,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Data;
 
+/**
+ * SubCategory is an entity class used for reading SubCategory information
+ * 
+ * @author HARIHARAN MANI
+ * @since 14-12-2021
+ */
 @Data
 public class SubCategory {
 
