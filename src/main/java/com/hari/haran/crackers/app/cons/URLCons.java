@@ -16,6 +16,7 @@ public class URLCons {
 	}
 
 	public static final String URL_HEALH_INDEX = "health";
+	public static final String URL_BUILD_INFO = "features";
 
 	public static final String JSON_UTF8_ENCODING = "application/json; charset=UTF-8"; // for JSON AJAX response
 

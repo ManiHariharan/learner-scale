@@ -19,4 +19,9 @@ public class TestController {
 	public String showIndex() {
 		return AppHtmlUtils.HEALTH_PAGE;
 	}
+
+	@GetMapping({ URLCons.URL_BUILD_INFO })
+	public String buildInfo() {
+		return AppHtmlUtils.BUILD_INFO;
+	}
 }

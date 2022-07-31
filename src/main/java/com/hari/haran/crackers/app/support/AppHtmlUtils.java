@@ -12,6 +12,7 @@ public class AppHtmlUtils {
 
 	public static final String ERROR_PAGE = getErrorPage();
 	public static final String HEALTH_PAGE = getHealthPage();
+	public static final String BUILD_INFO = getBuildInfo();
 
 	/**
 	 * AppHtmlUtils() is a private constructor to hide the implicit public one.
@@ -38,6 +39,72 @@ public class AppHtmlUtils {
 		indexBuilder.append(getSmallText(appVersion, "super"));
 		indexBuilder.append("</h2>");
 
+		indexBuilder.append("</div>");
+
+		return indexBuilder.toString();
+	}
+
+	private static String getBuildInfo() {
+		String appVersion = String.format("%s.%s", SettingCons.APP_VERSION, SettingCons.APP_BUILD_NO);
+
+		StringBuilder indexBuilder = new StringBuilder();
+
+		indexBuilder.append("<div style=\"font-family: Open Sans,sans-serif;\">");
+
+		indexBuilder.append("<h2 style=\"");
+		indexBuilder.append("font-size: 36px;");
+		indexBuilder.append("margin: 0;");
+		indexBuilder.append("color: #055593;");
+		indexBuilder.append("border-bottom: 1px solid rgba(59,65,81,.3);");
+		indexBuilder.append("padding-bottom: 10px;");
+		indexBuilder.append("\">");
+		indexBuilder.append(SettingCons.APP_NAME);
+		indexBuilder.append(getSmallText(appVersion, "super"));
+		indexBuilder.append("</h2>");
+		
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("Crackers can be easily filtered using Category and Sub-Category");
+		indexBuilder.append("<br>").append("Eg : [<b>Category</b> : SPARKLERS] [<b>Sub-Category</b> : 7 CM SPARKLERS, 10 CM SPARKLERS]").append("</li>");
+		indexBuilder.append("</ul>");
+		
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("Filters can be searched on selected Category separately").append("</li>");
+		indexBuilder.append("<li>").append("Filters can be searched for All Categories also").append("</li>");
+		indexBuilder.append("</ul>");
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("Each crackers will be displayed with Primary image in dashboard").append("</li>");
+		indexBuilder.append("<li>").append("If View icon clicked, Primary and Secondary image of the crackers will be displayed along with detailed category information");
+		indexBuilder.append("<br>");
+		indexBuilder.append("(If required, 2 lines of individual product description can also be added in this page)");
+		indexBuilder.append("</li>");
+		indexBuilder.append("</ul>");
+		
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("Each crackers can be added to cart separately").append("</li>");
+		indexBuilder.append("<li>").append("View Cart icon will alwayz available on page top along with selected product count").append("</li>");
+		indexBuilder.append("</ul>");
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("In View Cart page itself, Quantity can be increased, decreased. Product can also be deleted").append("</li>");
+		indexBuilder.append("<li>").append("Cart can be reviewed once before Delivery address to be added").append("</li>");
+		indexBuilder.append("<li>").append("Final Order Summary will be displayed").append("</li>");
+		indexBuilder.append("</ul>");
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("Reference information can be added (optinal)").append("</li>");
+		indexBuilder.append("<li>").append("Estimation PDF can be downloaded (same like old application PDF)").append("</li>");
+		indexBuilder.append("<li>").append("Mail Notification will be sent (same like old application PDF)").append("</li>");
+		indexBuilder.append("</ul>");
+		
+		indexBuilder.append("<ul>");
+		indexBuilder.append("<li>").append("Selected Cart information will be stored in browser Local Storage").append("</li>");
+		indexBuilder.append("<li>").append("Delivery Address will alos be stored in browser Local Storage which can be used for future orders").append("</li>");
+		indexBuilder.append("</ul>");
+		
 		indexBuilder.append("</div>");
 
 		return indexBuilder.toString();
