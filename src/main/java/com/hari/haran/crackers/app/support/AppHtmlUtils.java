@@ -10,15 +10,29 @@ import com.hari.haran.crackers.app.cons.SettingCons;
  */
 public class AppHtmlUtils {
 
-	public static final String ERROR_PAGE = getErrorPage();
-	public static final String HEALTH_PAGE = getHealthPage();
-	public static final String BUILD_INFO = getBuildInfo();
+	public static final String ERROR_PAGE = getHtmlPage("h2-eCommerce Error Page", getErrorPage());
+	public static final String HEALTH_PAGE = getHtmlPage("h2-eCommerce", getHealthPage());
+	public static final String BUILD_INFO = getHtmlPage("h2-eCommerce Features", getBuildInfo());
 
 	/**
 	 * AppHtmlUtils() is a private constructor to hide the implicit public one.
 	 */
 	private AppHtmlUtils() {
 		throw new IllegalStateException();
+	}
+	
+	
+	private static String getHtmlPage(String headerName, String pageInfo) {
+		StringBuilder htmlBuilder = new StringBuilder();
+		htmlBuilder.append("<head>");
+		htmlBuilder.append("<title>").append(headerName).append("</title>");
+		htmlBuilder.append("</head>");
+		
+		htmlBuilder.append("<body>");
+		htmlBuilder.append(pageInfo);
+		htmlBuilder.append("</body>");
+		
+		return htmlBuilder.toString();
 	}
 
 	private static String getHealthPage() {
