@@ -1,8 +1,8 @@
-package com.learnerscale.Purchase.Service;
+package com.learnerscale.purchase.service;
 
 import java.util.List;
 
-import com.learnerscale.Purchase.model.PurchaseModel;
+import com.learnerscale.purchase.model.PurchaseModel;
 
 public interface PurchaseService {
 
