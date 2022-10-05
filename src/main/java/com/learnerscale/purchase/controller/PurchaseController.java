@@ -43,7 +43,7 @@ public class PurchaseController {
 	/**
 	 * SAVE using PathVariable
 	 * 
-	 * Example : http://127.0.0.1:4444/api/purchase/save/103/503/ABCD3/553
+	 * Example : http://127.0.0.1:4444/api/purchase/save3/103/503/ABCD3/553
 	 * 
 	 * TESTED
 	 */
